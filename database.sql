@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS speed_camera_fines (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    player_id INT NOT NULL,
+    amount INT NOT NULL,
+    issued_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
